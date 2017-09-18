@@ -21,7 +21,7 @@
     }
   ],
   "require": {
-    "kissparadigm/laravel-package": "5.5.*"
+    "kissparadigm/laravel-package": "^5.5"
   },
   "autoload": {
     "psr-4": {
