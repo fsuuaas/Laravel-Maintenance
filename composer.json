@@ -1,0 +1,45 @@
+{
+  "name": "kissparadigm/laravel-maintenance",
+  "description": "Simple maintenance package for Laravel framework",
+  "keywords": [
+    "kissparadigm",
+    "laravel",
+    "maintenance"
+  ],
+  "homepage": "https://github.com/KissParadigm/Laravel-Maintenance",
+  "support": {
+    "source": "https://github.com/KissParadigm/Laravel-Maintenance",
+    "issues": "https://github.com/KissParadigm/Laravel-Maintenance/issues"
+  },
+  "license": "Beerware",
+  "authors": [
+    {
+      "name": "KissParadigm",
+      "email": "kissparadigm@gmail.com",
+      "homepage": "https://www.kissparadigm.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "kissparadigm/laravel-package": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "KissParadigm\\LaravelMaintenance\\": "src"
+    },
+    "files": [
+      "src/Helpers/Maintenance.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "KissParadigm\\LaravelMaintenance\\Providers\\ServiceProvider"
+      ],
+      "aliases": {
+        "Active": "KissParadigm\\LaravelMaintenance\\Facades\\Maintenance"
+      }
+    }
+  },
+  "minimum-stability": "stable"
+}
