@@ -1,6 +1,6 @@
 {
   "name": "kissparadigm/laravel-maintenance",
-  "description": "Simple maintenance package for Laravel framework",
+  "description": "Simple package for Laravel framework",
   "keywords": [
     "kissparadigm",
     "laravel",
@@ -37,7 +37,7 @@
         "KissParadigm\\LaravelMaintenance\\Providers\\ServiceProvider"
       ],
       "aliases": {
-        "Active": "KissParadigm\\LaravelMaintenance\\Facades\\Maintenance"
+        "Maintenance": "KissParadigm\\LaravelMaintenance\\Facades\\Maintenance"
       }
     }
   },

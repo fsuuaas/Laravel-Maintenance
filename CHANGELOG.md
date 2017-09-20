@@ -21,5 +21,10 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 ### Security
 - Nothing
 
+## 5.5.1 - 2017-09-18
+
+### Fixed
+- composer.json
+
 ## 5.5.0 - 2017-09-18
 - Initial release
